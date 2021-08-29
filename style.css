@@ -1,0 +1,52 @@
+input {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin: 6px 0 16px 0;
+}
+input[type=submit]{
+	background-color: #4CAF50;
+	color: white;
+}
+.cen{
+	position: absolute;
+	top: 27%;
+	left: 50%;
+	transform: translate(-50%,-15%);
+	/*height: auto;*/
+	width: 35%;
+}
+.container{
+	background-color: #cccccc;
+	padding: 20px;
+}
+#massage{
+	border: none;
+	background-color: #cccccc;
+	color: #000;
+	position: relative;
+	padding: 20px;
+	display: none;
+}
+#massage p{
+	padding: 10px 35px;
+	font-size: 18px;
+}
+.valid{
+	color: green;
+}
+.valid:before{
+	position: relative;
+	left: -35px;
+	content: '✔';
+}
+.invalid{
+	color: red;
+}
+.invalid:before{
+	position: relative;
+	left: -35px;
+	content: "✖";
+}
